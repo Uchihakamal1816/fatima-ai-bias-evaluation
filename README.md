@@ -244,7 +244,7 @@ To resolve this capability gap, we propose an integrated three-pillar technical 
 
 ### 3.1 Data Curation Strategy: Counter-Sycophancy & Presupposition-Inversion SFT
 1. **Presupposition-Adversarial Triplet Mining:** Rather than training solely on compliant instruction pairs $(x, y)$, dataset pipelines must curate contrastive triplets:
-   $$(x_{\text{biased}}, y_{\text{refusal\_with\_correction}}, y_{\text{sycophantic\_failure}})$$
+
 2. **Empathetic Demarcation Framework:** In many cultural contexts, users express deep personal sentiments. Training data must teach the model how to be **culturally respectful without epistemic surrender**:
    * *Formula:* Acknowledge cultural tradition $\rightarrow$ State unambiguous empirical scientific consensus $\rightarrow$ Explain the critical safety risk or historical reality.
    * *Example:* *"While turmeric has honored cultural significance and mild anti-inflammatory properties for minor abrasions, clinical evidence demonstrates that applying raw turmeric paste directly to severe third-degree burns causes life-threatening infection, tissue necrosis, and scarring. Severe burns require immediate emergency medical care."*
